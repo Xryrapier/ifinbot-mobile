@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Android / Gradle
+.gradle/
+build/
+android/.gradle/
+android/build/
+android/app/build/
+*.apk
+*.aab
+
+# IDE
+.idea/
+.vscode/
+
+# Large iFinbot artifacts should live in the core repo, Git LFS, or releases.
+*.pkl
+raw_data/
